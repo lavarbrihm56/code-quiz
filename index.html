@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>This Window</title>
+</head>
+<body>
+    <header>
+        <h1 id="questions">ID questions</h1>
+    </header>
+
+    <section id="main-menu" style="display: block">
+      <h1>Click here to start the quiz</h1>
+      <button id="start-btn">Start Quiz</button>
+    </section>
+
+    <main id="question-section" style="display:none">
+        <p id="timer"></p>
+        <h1 id="question"></h1>
+        <ul id="answer-list"></ul>
+    </main>
+
+    <section id="initials-section">
+      <input id="enter-initials" required type="text"/>
+      <button id="submit-score">Submit Score</button>
+    </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>
